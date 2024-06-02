@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Jersey+10&family=Jersey+15+Charted&family=VT323&display=swap');
+body{
+  background: black;
+  color: white;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  gap: 1.5em;
+  min-height:100vh;
+  font-size: 1.9em;
+}
+
+#name{
+  font-size: 3em;
+}
+#desc{
+  font-size: 1.7em;
+}
+
+
+.container {
+  border: 1px white solid;
+  border-radius: 13px;
+  padding: 1em;
+  text-align:center;
+  justify-self:start;
+}
+
+#details {
+  text-align:left;
+}
+.socials{
+min-width: 80vw;
+display:flex;
+justify-content: space-around;
+align-items:end;
+justify-self:end;
+margin-top: 3em;
+
+
+}
+
+.socials > * {
+  text-decoration:none;
+  padding-inline: 2em;
+  padding-block: 0.5em;
+  border: 1px white solid;
+  border-radius: 15px;
+  color:white;
+  font-size: 1.5rem;
+}
+.socials > a:hover, .socials > a:active {
+  text-decoration: underline;
+
+}
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jersey-15-charted-regular {
+  font-family: "Jersey 15 Charted", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.black-ops-one-regular {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
