@@ -8,7 +8,9 @@ body{
   align-items:center;
   gap: 1.5em;
   min-height:100vh;
+  width: 100vw;
   font-size: 1.9em;
+  margin-inline: 1rem;
 }
 
 #name{
@@ -33,6 +35,7 @@ body{
   padding: 1em;
   text-align:center;
   justify-self:start;
+  max-width: 80vw;
 }
 
 #details {
@@ -45,7 +48,7 @@ justify-content: space-around;
 align-items:end;
 justify-self:end;
 margin-top: 3em;
-
+margin-bottom: 2em;
 
 }
 
@@ -87,3 +90,23 @@ margin-top: 3em;
   font-style: normal;
 }
 
+
+@media (max-width: 800px) {
+  body{
+    font-size: 1.2em;
+    
+  }
+
+  .socials > a {
+    font-size: 0.7rem;
+    border-radius: 0.2rem;
+  }
+  .socials {
+    margin-inline: 0.5em;
+    gap: 0.4rem;
+  }
+  .container {
+    max-width: 80vw;
+  }
+
+}
