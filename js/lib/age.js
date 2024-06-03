@@ -1,5 +1,4 @@
-
-function updateAge(element){
+export function updateAge(element){
 
 let bday = new Date("21 june 2004, 00:00:00");
 
@@ -27,7 +26,4 @@ let intervalId = setInterval( ()=> {
 
 }
 
-
-let ageElement = document.querySelector("#age");
-updateAge(ageElement);
 

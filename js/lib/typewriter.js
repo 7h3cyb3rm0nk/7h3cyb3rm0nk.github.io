@@ -1,6 +1,6 @@
 
 
-export function typeWriter(element, speed) {
+export function typewrite(element, speed) {
      let elementText = element.textContent;
      element.innerHTML = "";
      for(let i=0; i < elementText.length; i++){
