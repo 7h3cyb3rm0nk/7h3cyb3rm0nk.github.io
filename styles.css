@@ -127,12 +127,13 @@ margin-bottom: 2em;
   }
 
   .socials > a {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
   .socials {
-    margin-inline: 0.5em;
+    /* margin-inline: 0.5em; */
     margin-top: 2em;
-    max-width: 90%;
+    min-width: 90%;
+    
   }
   .container {
     max-width: 80vw;
