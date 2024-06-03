@@ -1,11 +1,11 @@
 
 
-export function typewrite(element, speed) {
-     let elementText = element.textContent;
+export function typewrite(element, text, speed) {
+     
      element.innerHTML = "";
-     for(let i=0; i < elementText.length; i++){
+     for(let i=0; i < text.length; i++){
        setTimeout(()=>{
-         element.innerHTML += elementText.charAt(i);
+         element.innerHTML += text.charAt(i);
        }, speed * i);
     }
  }
