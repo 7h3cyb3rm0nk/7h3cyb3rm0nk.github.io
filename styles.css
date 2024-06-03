@@ -47,7 +47,7 @@ body{
 .socials{
 min-width: 80vw;
 display:flex;
-justify-content: space-around;
+justify-content: center;
 align-items:end;
 justify-self:end;
 margin-top: 3em;
@@ -60,9 +60,18 @@ margin-bottom: 2em;
   padding-inline: 2em;
   padding-block: 0.5em;
   border: 1px white solid;
-  border-radius: 15px;
+  
   color:white;
   font-size: 1.5rem;
+}
+
+.socials > a:first-child{
+  
+  border-radius: 0.2rem 0 0 0.2rem;
+}
+
+.socials > a:last-child{
+  border-radius: 0rem 0.2rem 0.2rem 0rem;
 }
 .socials > a:hover, .socials > a:active {
   text-decoration: underline;
@@ -104,11 +113,9 @@ margin-bottom: 2em;
 
   .socials > a {
     font-size: 0.7rem;
-    border-radius: 0.2rem;
   }
   .socials {
     margin-inline: 0.5em;
-    gap: 0.4rem;
   }
   .container {
     max-width: 80vw;
