@@ -1,4 +1,4 @@
-
+import { updateAge } from  './age.js';
 
 function typeWriter(element, speed) {
   let elementText = element.textContent;
@@ -10,6 +10,8 @@ function typeWriter(element, speed) {
   }
 }
 
-  
-  let desc = document.querySelector("#desc");
-  typeWriter(desc, 50);
+//typewriter effect  
+let desc = document.querySelector("#desc");
+typeWriter(desc, 50);
+
+// update age
