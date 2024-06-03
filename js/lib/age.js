@@ -17,7 +17,7 @@ let i=0;
 element.textContent = i + "year";
 let intervalId = setInterval( ()=> {
   i++;
-  element.textContent = (i< 10)? i + " year": i + " years" ;
+  element.textContent = i + "-year-old" ;
   if(i >= age) {
    clearInterval(intervalId);
   }
