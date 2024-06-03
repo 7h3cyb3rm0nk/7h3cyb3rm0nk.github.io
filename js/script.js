@@ -1,4 +1,3 @@
-import { updateAge } from  './age.js';
 
 function typeWriter(element, speed) {
   let elementText = element.textContent;
