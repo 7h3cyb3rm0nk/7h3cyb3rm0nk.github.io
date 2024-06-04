@@ -71,7 +71,7 @@ justify-content: center;
 align-items:end;
 justify-self:end;
 margin-top: 2em;
-margin-bottom: 1em; 
+margin-bottom: 1.5em; 
 }
 
 .socials > * {
@@ -131,7 +131,7 @@ margin-bottom: 1em;
     font-size: 1.2em;
     margin-inline:0;
     overflow-y:scroll;
-    min-height: 100vh;
+    min-height: 100svh;
     position:relative;
     
     
